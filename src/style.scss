@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.Taxi {
+  background-image: url('https://img.freepik.com/premium-vector/delivery-taxi-logo-illustration-vector-taxi-service-icon_747203-1440.jpg?w=2000');
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.Food {
+  background-image: url('https://icons-for-free.com/iconfiles/png/512/dinner+eat+eating+food+kitchen+restaurant+icon-1320086191755611454.png');
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+}

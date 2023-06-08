@@ -1,0 +1,49 @@
+<footer class="footer">
+  <mat-toolbar class="footer" color="primary">
+    <div fxFlex fxLayout="row" fxLayoutAlign="space-between center">
+      <button mat-button routerLink="/home" routerLinkActive="active-menu-item">
+        <div class="toolbar-icon">
+          <mat-icon>home</mat-icon>
+        </div>
+        <div class="toolbar-icon-text">
+          <span>Home</span>
+        </div>
+      </button>
+
+      <button
+        mat-button
+        routerLink="/forums"
+        routerLinkActive="active-menu-item"
+      >
+        <div class="toolbar-icon">
+          <mat-icon>event_note</mat-icon>
+        </div>
+        <div class="toolbar-icon-text">
+          <span>Daily</span>
+        </div>
+      </button>
+
+      <button
+        mat-button
+        routerLink="/messages"
+        routerLinkActive="active-menu-item"
+      >
+        <div class="toolbar-icon">
+          <mat-icon>pie_chart</mat-icon>
+        </div>
+        <div class="toolbar-icon-text">
+          <span>Report</span>
+        </div>
+      </button>
+
+      <button mat-button (click)="onToggleSidenav()">
+        <div class="toolbar-icon">
+          <mat-icon>more_horiz</mat-icon>
+        </div>
+        <div class="toolbar-icon-text">
+          <span>More</span>
+        </div>
+      </button>
+    </div>
+  </mat-toolbar>
+</footer>

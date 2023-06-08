@@ -1,0 +1,9 @@
+<div *ngIf="user">
+  <img src="{{ user.photoUrl }}" />
+  <h4>{{ user.name }}</h4>
+  <p>{{ user.email }}</p>
+</div>
+
+<button mat-raised-button color="primary" (click)="signInWithGoogle()">
+  <i class="fa fa-google"></i> | Google
+</button>
