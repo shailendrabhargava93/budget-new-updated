@@ -20,7 +20,7 @@ import { SidenavComponent } from './navigation/sidenav/sidenav.component';
 
 import { HomeComponent } from './features/home/home.component';
 import { ForumsComponent } from './features/forums/forums.component';
-import { MessagesComponent } from './features/messages/messages.component';
+// import { MessagesComponent } from './features/messages/messages.component';
 import { AboutComponent } from './features/about/about.component';
 import {
   GoogleLoginProvider,
@@ -37,7 +37,7 @@ import { MatCardModule } from '@angular/material/card';
     FooterMobileComponent,
     HomeComponent,
     ForumsComponent,
-    MessagesComponent,
+    // MessagesComponent,
     SidenavComponent,
     AboutComponent,
     LoginComponent,

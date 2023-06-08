@@ -1,5 +1,5 @@
 import { AboutComponent } from './features/about/about.component';
-import { MessagesComponent } from './features/messages/messages.component';
+// import { MessagesComponent } from './features/messages/messages.component';
 import { ForumsComponent } from './features/forums/forums.component';
 import { HomeComponent } from './features/home/home.component';
 import { NgModule } from '@angular/core';
@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'forums', component: ForumsComponent },
-  { path: 'messages', component: MessagesComponent },
+  // { path: 'messages', component: MessagesComponent },
   { path: 'about', component: AboutComponent },
 ];
 
